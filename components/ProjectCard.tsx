@@ -8,7 +8,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ title, imageSrc, badge }: ProjectCardProps) {
   return (
-    <article className="bg-[#fafafa] rounded-2xl pt-6 px-6 pb-0 flex flex-col gap-3">
+    <article className="bg-[#fafafa] rounded-2xl pt-6 px-6 pb-0 flex flex-col gap-3 w-full">
       <div className="flex items-center justify-between h-7">
         <h3 className="text-sm font-medium text-[#4b4b4b]">{title}</h3>
         {badge && (
@@ -33,14 +33,14 @@ export default function ProjectCard({ title, imageSrc, badge }: ProjectCardProps
           </div>
         )}
       </div>
-      <div className="border border-[#e5e5e5] rounded-[14px] overflow-hidden bg-white p-px">
-        <div className="relative w-full aspect-[16/10] rounded-[8px] overflow-hidden">
+      <div className="border border-[#e5e5e5] rounded-[14px] overflow-hidden bg-white p-px mb-0">
+        <div className="relative w-full h-[400px] rounded-[8px] overflow-hidden">
           <Image
             src={imageSrc}
             alt={title}
             fill
             className="object-cover"
-            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+            sizes="100vw"
           />
         </div>
       </div>
