@@ -4,9 +4,10 @@ interface ProjectCardProps {
   title: string;
   imageSrc: string;
   badge?: string;
+  objectPosition?: string;
 }
 
-export default function ProjectCard({ title, imageSrc, badge }: ProjectCardProps) {
+export default function ProjectCard({ title, imageSrc, badge, objectPosition = "center" }: ProjectCardProps) {
   return (
     <article className="bg-[#fafafa] rounded-2xl pt-6 px-6 pb-0 flex flex-col gap-3 w-full">
       <div className="flex items-center justify-between h-7">
@@ -40,6 +41,7 @@ export default function ProjectCard({ title, imageSrc, badge }: ProjectCardProps
             alt={title}
             fill
             className="object-cover"
+            style={{ objectPosition }}
             sizes="100vw"
           />
         </div>

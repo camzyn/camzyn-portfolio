@@ -6,16 +6,19 @@ export default function ProjectsSection() {
       title: "Viewrail",
       imageSrc: "/images/viewrail.jpg",
       badge: "Coming soon",
+      objectPosition: "top",
     },
     {
       title: "CAMZYN Studio",
       imageSrc: "/images/camzyn-studio.jpg",
       badge: "Coming soon",
+      objectPosition: "center",
     },
     {
       title: "Landings",
       imageSrc: "/images/landings.jpg",
       badge: "Coming soon",
+      objectPosition: "center",
     },
   ];
 
@@ -31,6 +34,7 @@ export default function ProjectsSection() {
             title={project.title}
             imageSrc={project.imageSrc}
             badge={project.badge}
+            objectPosition={project.objectPosition}
           />
         ))}
       </div>
