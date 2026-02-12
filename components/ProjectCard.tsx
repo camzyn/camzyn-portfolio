@@ -9,7 +9,7 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ title, imageSrc, badge, objectPosition = "center" }: ProjectCardProps) {
   return (
-    <article className="bg-[#fafafa] rounded-2xl pt-6 px-6 pb-0 flex flex-col gap-3 w-full">
+    <article className="bg-[#fafafa] rounded-2xl pt-6 px-6 pb-6 flex flex-col gap-3 w-full">
       <div className="flex items-center justify-between h-7">
         <h3 className="text-sm font-medium text-[#4b4b4b]">{title}</h3>
         {badge && (
@@ -34,7 +34,7 @@ export default function ProjectCard({ title, imageSrc, badge, objectPosition = "
           </div>
         )}
       </div>
-      <div className="border border-[#e5e5e5] rounded-[14px] overflow-hidden bg-white p-px mb-0">
+      <div className="border border-[#e5e5e5] rounded-[14px] overflow-hidden bg-white p-px">
         <div className="relative w-full h-[400px] rounded-[8px] overflow-hidden">
           <Image
             src={imageSrc}
