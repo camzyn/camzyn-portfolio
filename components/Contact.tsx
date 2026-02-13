@@ -3,7 +3,7 @@ export default function Contact() {
     <footer className="py-8 border-t border-neutral-200 dark:border-neutral-700 px-6 md:flex-shrink-0 transition-colors duration-300" style={{ borderWidth: '1.5px' }}>
       <div className="flex gap-6 justify-end items-center">
         <p className="text-neutral-500 dark:text-neutral-400 font-[family-name:var(--font-family-body)] mr-auto transition-colors duration-300" style={{ fontSize: '13px' }}>
-          Built with Figma, Claude Code & Next.js
+          Built with Next.js and Claude Code
         </p>
         <a
           href="https://www.linkedin.com/in/camzyn/"
