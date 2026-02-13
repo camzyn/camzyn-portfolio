@@ -37,7 +37,8 @@ export default function ProjectCard({ title, role, dateRange, summary, imageUrl,
           src={imageUrl}
           alt={title}
           fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+          quality={90}
+          sizes="(max-width: 768px) 100vw, 768px"
           style={{ objectPosition }}
         />
       </div>
@@ -65,7 +66,8 @@ export default function ProjectCard({ title, role, dateRange, summary, imageUrl,
               src={imageUrl}
               alt={title}
               fill
-              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+              quality={90}
+              sizes="(max-width: 768px) 100vw, 768px"
               style={{ objectPosition }}
             />
           </div>
