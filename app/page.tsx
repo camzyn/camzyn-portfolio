@@ -1,15 +1,17 @@
 import Navigation from "../components/Navigation";
 import Hero from "../components/Hero";
-import ProjectsSection from "../components/ProjectsSection";
-import Footer from "../components/Footer";
+import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-white dark:bg-[#0a0a0a]">
-      <Navigation />
-      <Hero />
-      <ProjectsSection />
-      <Footer />
-    </main>
+    <div className="min-h-screen bg-white dark:bg-[#1e1e1e] transition-colors duration-300">
+      <Navigation sticky={true} />
+      <div className="pt-32 pb-12">
+        <Hero />
+      </div>
+      <Projects />
+      <Contact />
+    </div>
   );
 }
