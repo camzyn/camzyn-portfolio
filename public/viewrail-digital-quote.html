@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viewrail Digital Quote | Camille Zyniewicz</title>
+    <meta
+      name="description"
+      content="Case study: redesigning Viewrail's digital quote experience to improve clarity and confidence."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Geist:wght@400;500;700&family=Geist+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260226-1006" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell topbar-inner case-topbar-inner">
+        <a class="case-index-link" href="./index.html"><span aria-hidden="true">&#8617;</span> Index</a>
+        <span class="case-topbar-title">Viewrail Digital Quote Experience</span>
+        <nav class="nav">
+          <a href="./index.html">Work</a>
+          <a href="./about.html">About</a>
+        </nav>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open menu"
+        >
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
+      </div>
+      <div id="mobile-menu" class="mobile-menu" hidden>
+        <a href="./index.html">Work</a>
+        <a href="./about.html">About</a>
+        <a href="mailto:camille@camzyn.com">Email</a>
+      </div>
+    </header>
+
+    <main class="shell page case-page">
+      <div class="case-layout">
+        <aside class="case-toc reveal" aria-label="Case study sections">
+          <a href="#overview">Overview</a>
+          <a href="#context">Why it Mattered</a>
+          <a href="#problem">Where We Started</a>
+          <a href="#discovery">Reframe</a>
+          <a href="#research">Research</a>
+          <a href="#collaboration">Collaboration</a>
+          <a href="#ideation">Ideation</a>
+          <a href="#solution">Solution</a>
+          <a href="#outcomes">Outcomes</a>
+          <a href="#takeaway">Takeaway</a>
+        </aside>
+
+        <div class="case-main">
+      <section id="overview" class="case-header reveal">
+        <p class="case-eyebrow">Viewrail • Digital Quote Experience • Handed Off</p>
+        <h1>Rebuilding trust at the moment of purchase</h1>
+      </section>
+
+      <section class="case-image reveal">
+        <figure class="case-figure">
+          <video
+            src="./videos/vrdqbluem.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            aria-label="Viewrail digital quote demo video"
+          ></video>
+        </figure>
+      </section>
+
+      <section class="case-grid reveal">
+        <article>
+          <h2>Role</h2>
+          <p>UX Designer</p>
+        </article>
+        <article>
+          <h2>Responsibilities</h2>
+          <p>UX Strategy<br />UX Design<br />Prototyping</p>
+        </article>
+        <article>
+          <h2>Timeline</h2>
+          <p>Three sprints<br />June - July<br />2025</p>
+        </article>
+        <article>
+          <h2>Team</h2>
+          <p>Product Manager<br />Frontend Developer<br />Backend Developer</p>
+        </article>
+      </section>
+      <div class="case-divider" aria-hidden="true"></div>
+
+      <section id="context" class="case-section reveal">
+        <h2>Why it Mattered</h2>
+        <h3>A critical touchpoint under strain</h3>
+        <p>
+          Viewrail designs and manufactures custom stair and railing systems for luxury residential and builder markets. Quotes are not casual price checks. They represent high-ticket, highly customized purchases that require confidence and clarity before commitment.
+        </p>
+        <p>
+          The digital quote experience is a critical touchpoint in that journey.
+        </p>
+        <p>
+          Launched on a rush timeline over two years prior, the digital quote hadn't been meaningfully updated since. Over time, complexity grew and Sales developed workarounds.
+        </p>
+        <div class="case-stats">
+          <article>
+            <strong>$100M+</strong>
+            <span>annual revenue captured through this channel</span>
+          </article>
+          <article>
+            <strong>20,000+</strong>
+            <span>Homeowners deciding on purchase at this point annually</span>
+          </article>
+          <article>
+            <strong>UP&#8593;</strong>
+            <span>sales support volume asking for clarification in digital quotes</span>
+          </article>
+        </div>
+      </section>
+      <div class="case-divider" aria-hidden="true"></div>
+
+      <section id="problem" class="case-section reveal">
+        <h2>Where We Started</h2>
+        <h3>Looking beyond the feature request</h3>
+        <p>
+          The initial request was simple: enable internal image uploads. The business goal: give customers more context and reduce back-and-forth with Sales.
+        </p>
+        <figure class="case-figure">
+          <img
+            class="case-inline-image case-framed-image"
+            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/VRDQ_old-h7RsiN8Wyg8ecGTBy7GELypQm2Mmfi.png"
+            alt="Old Viewrail quote before redesign"
+            loading="lazy"
+          />
+          <figcaption>"Old" Viewrail quote before redesign</figcaption>
+        </figure>
+      </section>
+      <div class="case-divider" aria-hidden="true"></div>
+
+      <section id="discovery" class="case-section reveal">
+        <h2>Reframe</h2>
+        <h3>Is the problem a lack of supporting visuals and documentation, or the page itself?</h3>
+        <p>
+          After an audit of the current digital quote experience, we agreed to focus on the external touch point first. The business goal: reduce Sales support volume. The design question: why do customers need excess Sales support at this key decision point?
+        </p>
+        <div class="case-inline-grid">
+          <figure class="case-figure">
+            <img
+              class="case-inline-image"
+              src="https://www.camzyn.com/images/viewrail-system-mapping.jpg"
+              alt="System map of the quote flow"
+              loading="lazy"
+            />
+            <figcaption>System mapping of the quote tool platform</figcaption>
+          </figure>
+          <figure class="case-figure">
+            <img
+              class="case-inline-image"
+              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/VRQHE_CZK-C7tHlIQQbCyDRQZB3hB9tcJXWdXSd6.jpg"
+              alt="Heuristic evaluation of the old quote"
+              loading="lazy"
+            />
+            <figcaption>Heuristic evaluation of the "old" quote</figcaption>
+          </figure>
+        </div>
+      </section>
+      <div class="case-divider" aria-hidden="true"></div>
+
+      <section id="research" class="case-section reveal">
+        <h2>Research</h2>
+        <h3>The issue wasn't lack of images. It was clarity.</h3>
+        <blockquote class="case-quote">
+          "I want to understand the cost right away. I can't tell how each of my selections affects the price...it's unclear what's included or now, and where I need to maybe re-think selections with my contractor."
+          <cite>Homeowner interview</cite>
+        </blockquote>
+        <div class="research-collage" aria-label="Research synthesis board">
+          <article class="sticky-note sticky-teal" data-draggable-item>
+            <h4>Unclear line items</h4>
+            <p>Customers couldn't distinguish between systems, add-ons, and installation. Pricing hierarchy was flat and ambiguous.</p>
+          </article>
+          <figure class="collage-note collage-note-large figma-frame" data-draggable-item>
+            <div class="figma-bar" aria-hidden="true"></div>
+            <img
+              src="./images/viewrail/research-affinity-map.webp"
+              alt="Affinity map for quote experience interview findings"
+              loading="lazy"
+            />
+          </figure>
+          <article class="sticky-note sticky-blue" data-draggable-item>
+            <h4>Quote vs. Order confusion</h4>
+            <p>Terminology shifted between "quote" and "order" across pages, eroding confidence at the moment of commitment.</p>
+          </article>
+          <article class="sticky-note sticky-pink" data-draggable-item>
+            <h4>Hidden project context</h4>
+            <p>System descriptions, configuration details, and measurements were collapsed or buried. Customers had to click to find critical info.</p>
+          </article>
+          <figure class="collage-note collage-note-wide figma-frame" data-draggable-item>
+            <div class="figma-bar" aria-hidden="true"></div>
+            <img
+              src="./images/viewrail/research-sales-survey.webp"
+              alt="Sales survey findings about customer pain points in digital quote experience"
+              loading="lazy"
+            />
+          </figure>
+          <article class="sticky-note sticky-yellow" data-draggable-item>
+            <h4>No self-serve documentation</h4>
+            <p>No way to download, share, or save the quote. Customers relied entirely on Sales to resurface information.</p>
+          </article>
+          <figure class="collage-note collage-note-small" data-draggable-item>
+            <img
+              class="research-dovetail-icon"
+              src="./images/viewrail/research-dovetail.png"
+              alt="Dovetail workspace screenshot used for interview synthesis"
+              loading="lazy"
+            />
+          </figure>
+        </div>
+        <p class="case-caption research-collage-caption">Key findings from Sales team survey and customer interviews.</p>
+      </section>
+      <div class="case-divider" aria-hidden="true"></div>
+
+      <section id="collaboration" class="case-section reveal">
+        <h2>Collaboration</h2>
+        <h3>Guiding alignment and reducing risk</h3>
+        <p>
+          As a shared-resource UX designer and the sole designer on this project, I owned discovery, reframing the problem, defining requirements, prototyping, testing, and developer handoff. I worked closely with the project team, Sales, and Marketing to ensure alignment across customer experience and internal workflows.
+        </p>
+        <figure class="case-figure">
+          <div class="figma-frame">
+            <div class="figma-bar" aria-hidden="true"></div>
+            <img
+              class="case-inline-image"
+              src="https://www.camzyn.com/images/viewrail/ideation-board.webp"
+              alt="Collaboration board with SWOT, user stories, and opportunity prioritization"
+              loading="lazy"
+            />
+          </div>
+          <figcaption class="case-caption">Cross-functional prioritization board used during collaboration and handoff planning.</figcaption>
+        </figure>
+      </section>
+      <div class="case-divider" aria-hidden="true"></div>
+
+      <section id="ideation" class="case-section reveal">
+        <h2>Ideation</h2>
+        <h3>AI-accelerated Prototyping &amp; Testing</h3>
+        <p>
+          I mapped research findings to user stories and prioritized opportunities using a SWOT analysis, then leveraged AI to explore multiple design directions within a single sprint.
+        </p>
+        <figure class="case-figure">
+          <div class="ideation-gallery-frame">
+            <div class="ideation-gallery">
+              <img
+                class="case-inline-image ideation-lightbox-trigger"
+                src="./images/viewrail/frame-3.jpg"
+                alt="AI-generated concept exploration one"
+                loading="lazy"
+              />
+              <img
+                class="case-inline-image ideation-lightbox-trigger"
+                src="./images/viewrail/frame-1.jpg"
+                alt="AI-generated concept exploration two"
+                loading="lazy"
+              />
+              <img
+                class="case-inline-image ideation-lightbox-trigger"
+                src="./images/viewrail/frame-2.jpg"
+                alt="AI-generated concept exploration three"
+                loading="lazy"
+              />
+            </div>
+          </div>
+          <figcaption>2 of 4 concepts generated in Claude Code using user, functional, and business requirements I compiled.</figcaption>
+        </figure>
+        <figure class="case-figure">
+          <img
+            class="case-inline-image"
+            src="https://www.camzyn.com/images/viewrail-prototype-flow.png"
+            alt="Figma prototype flow for Viewrail digital quote redesign"
+            loading="lazy"
+          />
+          <figcaption>High-fi prototype inspired by Claude Code concept features and tested with real users.</figcaption>
+        </figure>
+      </section>
+      <div class="case-divider" aria-hidden="true"></div>
+
+      <section id="solution" class="case-section reveal">
+        <h2>Solution</h2>
+        <h3>Three experiences that reduce uncertainty.</h3>
+        <div class="solution-pairs">
+          <article class="solution-pair">
+            <div class="solution-copy">
+              <h4>Simplified cost summary panel</h4>
+              <p>
+                After numerous iterations, pricing is now organized with a clear visual hierarchy. We also replaced red with green to signal positive savings, aligning the color cues with the tone of a high-touch experience.
+              </p>
+            </div>
+            <figure class="case-figure">
+              <video
+                src="./videos/vrdq-csp.mp4"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                aria-label="Simplified cost summary panel video"
+              ></video>
+            </figure>
+          </article>
+
+          <article class="solution-pair">
+            <div class="solution-copy">
+              <h4>Itemized system descriptions</h4>
+              <p>
+                Selections are itemized line by line within the descriptions, making pricing more transparent across the experience. This reduces human error from manually created paragraph descriptions and lowers the risk of users missing important details hidden in accordion sections. Customers can see exactly what they're paying for at a glance.
+              </p>
+            </div>
+            <figure class="case-figure">
+              <video
+                src="./videos/viewrail/descriptions.mp4"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                aria-label="Itemized system descriptions video"
+              ></video>
+            </figure>
+          </article>
+
+          <article class="solution-pair">
+            <div class="solution-copy">
+              <h4>Project files section</h4>
+              <p>
+                A dedicated section at the bottom of the quote consolidates all supporting project documentation in one place. Instead of hunting through email threads from their sales rep, customers can download and share these materials independently.
+              </p>
+            </div>
+            <figure class="case-figure">
+              <video
+                src="./videos/viewrail/files.mp4"
+                autoplay
+                muted
+                loop
+                playsinline
+                preload="metadata"
+                aria-label="Project files section video"
+              ></video>
+            </figure>
+          </article>
+        </div>
+      </section>
+      <div class="case-divider" aria-hidden="true"></div>
+
+      <section id="outcomes" class="case-section reveal">
+        <h2>Outcomes</h2>
+        <h3>Clearer quotes. Fewer clarifications. Stronger customer confidence.</h3>
+        <p>
+          Post-launch feedback showed reduced Sales back-and-forth, more confident internal use of the tool, and a scalable structure for managing quote documentation. The redesigned experience better reflects Viewrail's premium brand and shipped on schedule within three sprints.
+        </p>
+        <blockquote class="case-quote">
+          "This looks so much more professional, I can't wait to share out new quotes with this."
+          <cite>Viewrail Sales Rep</cite>
+        </blockquote>
+      </section>
+      <div class="case-divider" aria-hidden="true"></div>
+
+      <section id="takeaway" class="case-section reveal">
+        <h2>Takeaway</h2>
+        <h3>Customers didn't need more images, they needed to understand the cost of their detailed selections.</h3>
+        <p>
+          By redesigning the digital quote experience we reduced confusion, restored trust, and created a scalable foundation for future improvements to the digital quote experience.
+        </p>
+        <figure class="case-figure">
+          <video
+            src="./videos/viewrail/takeaway.mp4"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            aria-label="Takeaway section video"
+          ></video>
+        </figure>
+      </section>
+        </div>
+      </div>
+    </main>
+
+    <div class="lightbox" id="ideation-lightbox" hidden aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close image viewer">&times;</button>
+      <img class="lightbox-image" alt="" />
+    </div>
+
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <p class="footer-location">Chicago, IL</p>
+        <div class="footer-links">
+          <a href="mailto:camille@camzyn.com">Email</a>
+          <a href="https://x.com/heycamzyn" target="_blank" rel="noopener noreferrer">X</a>
+          <a href="https://www.linkedin.com/in/camzyn/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/camzyn" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

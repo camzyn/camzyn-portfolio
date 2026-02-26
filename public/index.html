@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Camille Zyniewicz Kabele | Product Designer</title>
+    <meta
+      name="description"
+      content="Product designer in Chicago shaping complex systems into clear, durable interfaces."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Geist:wght@400;500;700&family=Geist+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css?v=20260226-1006" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="shell topbar-inner">
+        <a class="brand" href="./index.html">
+          <span class="brand-name">Camille Zyniewicz</span>
+          <span class="brand-role">Product Designer</span>
+        </a>
+        <nav class="nav">
+          <a href="./index.html">Work</a>
+          <a href="./about.html">About</a>
+        </nav>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+          aria-label="Open menu"
+        >
+          <span class="menu-line"></span>
+          <span class="menu-line"></span>
+        </button>
+      </div>
+      <div id="mobile-menu" class="mobile-menu" hidden>
+        <a href="./index.html">Work</a>
+        <a href="./about.html">About</a>
+        <a href="mailto:camille@camzyn.com">Email</a>
+      </div>
+    </header>
+
+    <main id="top" class="shell page">
+      <section class="hero reveal">
+        <div class="hero-copy">
+          <h1>I'm Camille, a product designer in Chicago.</h1>
+        </div>
+
+        <aside class="experience" aria-label="Experience">
+          <ul>
+            <li>
+              <span class="year">2026</span>
+              <span class="company">Independent</span>
+              <span class="role">Product Designer</span>
+            </li>
+            <li>
+              <span class="year">2023-25</span>
+              <span class="company">Viewrail</span>
+              <span class="role">UX Designer</span>
+            </li>
+            <li>
+              <span class="year">2020-23</span>
+              <span class="company">CAMZYN Studio</span>
+              <span class="role">UX Designer</span>
+            </li>
+            <li>
+              <span class="year">2019</span>
+              <span class="company">Viewtique</span>
+              <span class="role">UX Designer</span>
+            </li>
+          </ul>
+        </aside>
+      </section>
+
+      <section id="work" class="work reveal">
+        <div class="projects-grid">
+          <a class="project-card" href="./viewrail-digital-quote.html" data-cta="View Case Study">
+            <video
+              class="project-thumb"
+              src="./videos/vrdqbluem.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              aria-label="Viewrail digital quote demo video"
+            ></video>
+            <div class="project-meta">
+              <h3>Digital Quote Experience</h3>
+              <span>Viewrail • 2025 • Handed off</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="#" data-cta="Coming Soon">
+            <img
+              class="project-thumb"
+              src="https://www.camzyn.com/images/viewrail-blueprint-workshop.jpg"
+              alt="Viewrail Service Blueprint workshops"
+              loading="lazy"
+            />
+            <div class="project-meta">
+              <h3>Service Blueprint Workshops</h3>
+              <span>Viewrail • 2024 • Handed off</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="#" data-cta="Coming Soon">
+            <img
+              class="project-thumb"
+              src="https://www.camzyn.com/images/viewrail-pdp.png"
+              alt="Viewrail product detail page concept"
+              loading="lazy"
+            />
+            <div class="project-meta">
+              <h3>Product Detail Page</h3>
+              <span>Viewrail • 2025 • Concept</span>
+            </div>
+          </a>
+
+          <a class="project-card" href="#" data-cta="Coming Soon">
+            <img
+              class="project-thumb"
+              src="https://www.camzyn.com/images/landings-podcast.jpg"
+              alt="Landings podcast visual"
+              loading="lazy"
+            />
+            <div class="project-meta">
+              <h3>Landings Podcast</h3>
+              <span>iNDustry Labs • 2025 • S1 Live</span>
+            </div>
+          </a>
+
+          <a
+            class="project-card"
+            target="_blank"
+            rel="noopener noreferrer"
+            data-cta="Visit Site"
+          >
+            <video
+              class="project-thumb"
+              src="./videos/camzyn-greennn.mp4"
+              autoplay
+              muted
+              loop
+              playsinline
+              preload="metadata"
+              aria-label="CAMZYN Studio project video"
+            ></video>
+            <div class="project-meta">
+              <h3>Studio Website</h3>
+              <span>CAMZYN Studio • 2020 - 2023 • Live</span>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="shell footer-inner">
+        <p class="footer-location">Chicago, IL</p>
+        <div class="footer-links">
+          <a href="mailto:camille@camzyn.com">Email</a>
+          <a href="https://x.com/heycamzyn" target="_blank" rel="noopener noreferrer">X</a>
+          <a href="https://www.linkedin.com/in/camzyn/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/camzyn" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="cursor-cta" aria-hidden="true"></div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
