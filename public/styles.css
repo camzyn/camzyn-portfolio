@@ -87,12 +87,6 @@ body.menu-open .topbar {
   font-weight: 500;
 }
 
-.brand-name::after {
-  content: "|";
-  margin-left: 8px;
-  color: var(--foreground-light);
-  font-weight: 400;
-}
 
 .brand-role {
   font-weight: 400;
@@ -166,7 +160,7 @@ body.menu-open .menu-line:last-child {
 }
 
 .page {
-  padding: 68px 0 56px;
+  padding: 2vw 0;
 }
 
 .about-page {
@@ -238,7 +232,8 @@ body.menu-open .menu-line:last-child {
 }
 
 .work {
-  padding-top: 10px;
+  padding-top: 0;
+  overflow: hidden;
 }
 
 .about {
@@ -634,7 +629,7 @@ body.menu-open .menu-line:last-child {
   }
 
   .page {
-    padding-top: 54px;
+    padding: 20px 0;
   }
 
   .footer-inner {
@@ -759,6 +754,7 @@ body.menu-open .menu-line:last-child {
   align-items: start;
   justify-content: stretch;
   width: 100%;
+  padding-top: 68px;
 }
 
 .case-main {
@@ -1556,6 +1552,7 @@ body.case-not-top .case-topbar-title {
   .case-layout {
     grid-template-columns: minmax(0, 1fr) minmax(0, var(--case-body-measure)) minmax(0, 1fr);
     column-gap: 0;
+    padding-top: 44px;
   }
 
   .case-grid {
@@ -1610,6 +1607,7 @@ body.case-not-top .case-topbar-title {
   .case-layout {
     grid-template-columns: 1fr;
     gap: 0;
+    padding-top: 0;
   }
 
   .case-toc {

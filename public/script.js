@@ -97,6 +97,14 @@ if (tocLinks.length) {
   const sections = Array.from(sectionMap.keys());
   if (sections.length) {
     const updateActiveByScroll = () => {
+      const atBottom =
+        window.scrollY + window.innerHeight >= document.documentElement.scrollHeight - 4;
+
+      if (atBottom) {
+        setActive(sections[sections.length - 1]);
+        return;
+      }
+
       const currentY = window.scrollY + 140;
       let activeSection = sections[0];
 
