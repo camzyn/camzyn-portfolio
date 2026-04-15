@@ -22,7 +22,7 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Camille Zyniewicz Kabele - Product Designer",
+  title: "Camille Zyniewicz Kabele",
   description: "Product designer based in Chicago with 6+ years of experience launching digital experiences.",
 };
 

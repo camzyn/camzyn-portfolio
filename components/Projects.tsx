@@ -20,8 +20,8 @@ const projects = [
     summary: "Leads end-to-end web development projects delivering accessible, responsive, scalable digital experiences that boost engagement and growth for clients.",
     imageUrl: "/images/camzyn-studio.jpg",
     tags: ["Service Design", "Web Development"],
-    link: "/projects/camzyn-studio",
-    comingSoon: true
+    link: "https://studio.camzyn.com/",
+    comingSoon: false
   },
   {
     id: 2,
