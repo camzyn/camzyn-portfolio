@@ -159,7 +159,7 @@ body.menu-open .menu-line:last-child {
 }
 
 .page {
-  padding: 2vw 0;
+  padding: 2vw 0 0;
 }
 
 .about-page {
@@ -232,6 +232,7 @@ body.menu-open .menu-line:last-child {
 
 .work {
   padding-top: 0;
+  padding-bottom: 2vw;
   overflow: hidden;
 }
 
@@ -325,6 +326,7 @@ body.menu-open .menu-line:last-child {
 .projects-grid {
   column-count: 2;
   column-gap: 22px;
+  margin-bottom: -24px;
 }
 
 .project-card {
@@ -628,7 +630,11 @@ body.menu-open .menu-line:last-child {
   }
 
   .page {
-    padding: 20px 0;
+    padding: 20px 0 0;
+  }
+
+  .work {
+    padding-bottom: 20px;
   }
 
   .footer-inner {
