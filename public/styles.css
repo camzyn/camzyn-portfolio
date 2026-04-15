@@ -760,6 +760,7 @@ body.menu-open .menu-line:last-child {
   justify-content: stretch;
   width: 100%;
   padding-top: 68px;
+  padding-bottom: var(--case-section-space);
 }
 
 .case-main {
@@ -1613,6 +1614,7 @@ body.case-not-top .case-topbar-title {
     grid-template-columns: 1fr;
     gap: 0;
     padding-top: 0;
+    padding-bottom: var(--case-section-space-mobile);
   }
 
   .case-toc {
