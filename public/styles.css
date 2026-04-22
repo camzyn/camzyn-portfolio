@@ -162,6 +162,14 @@ body.menu-open .menu-line:last-child {
   padding: 2vw 0 0;
 }
 
+body.home-page .page {
+  padding-top: 0;
+}
+
+body.home-page .topbar {
+  border-bottom: none;
+}
+
 .about-page {
   min-height: 100dvh;
   display: flex;
@@ -591,17 +599,30 @@ body.menu-open .menu-line:last-child {
   }
 
   .about-layout {
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "copy"
-      "media"
-      "experience";
+    display: flex;
+    flex-direction: column;
     row-gap: 24px;
     padding-top: 0;
   }
 
   .about-main-column {
-    max-width: 100%;
+    display: contents;
+  }
+
+  .about-title {
+    order: 1;
+  }
+
+  .about-hero-media {
+    order: 2;
+  }
+
+  .about-copy {
+    order: 3;
+  }
+
+  .about-layout .experience {
+    order: 4;
   }
 
   .about-hero-media {
@@ -623,6 +644,10 @@ body.menu-open .menu-line:last-child {
   .experience {
     justify-self: start;
     width: 100%;
+  }
+
+  .about-layout .experience {
+    margin-bottom: 24px;
   }
 
   .hero {
